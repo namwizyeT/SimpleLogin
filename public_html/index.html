@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <link rel='stylesheet' type="text/css" href='index.css'>
+    </head>
+
+    <body>
+        <div id="formSection">
+            <form>
+                <div id="sign">
+                    <h3 id="signin" class="sign"><a href="#">SIGN IN</a></h3>
+                    <h3 id="signup" class="sign"><a href="#">SIGN UP</a></h3>
+                </div>
+                <div id="credentials">
+                    <label class="label" for="usrname">username</label>
+                    <br>
+                    <input type="text" class="login" id="usrname">
+                    <br>
+                    <label class="label" for="password">password</label>
+                    <br>
+                    <input type="password" class="login" id="password">
+                    <br>
+                    <input type="checkbox" id="keepsign" checked><label for="keepsign" id="check"> Keep me Signed in</label>
+                    <br>
+                    <input type="submit" value="SIGN IN" class="login" id="submit">
+                </div>
+                <hr>
+
+                <p><a href="#">Forgot Password?</a></p>
+            </form>
+
+        </div>
+        <script src='index.js'></script>
+    </body>
+</html>
